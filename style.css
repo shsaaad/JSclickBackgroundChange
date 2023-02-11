@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  flex-direction: column;
+}
+
+section {
+}
+
+.working-things {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 25px;
+  background-color: #fff;
+  border: 3px solid;
+  border-radius: 8px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  margin: 15px 30px;
+}
+
+button:focus {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .working-things {
+    flex-direction: column;
+  }
+  .position {
+    height: 100vh;
+  }
+  body {
+    width: 100%;
+  }
+}
